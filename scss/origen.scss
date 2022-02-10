@@ -1,0 +1,32 @@
+// Esto es un comentario de linea en SCSS
+/*Esto es un comentario de bloque PURO CSS*/
+
+//Import
+
+@import "prueba";
+
+
+//Anidamiento
+
+section {
+    border: solid black;
+    padding: $PxMedium;
+    background-color: rgb(235, 235, 235);
+    ul {
+        border: solid red;
+        padding: $PxLarge;
+        background-image: linear-gradient(to bottom right, yellow, orange);
+        list-style-type: none;
+        li {
+            border: solid blue;
+            padding: $PxLarge;
+            a {
+                border: solid green;
+                padding: $Pxsamll;
+                &:active {
+                    color: red;
+                }
+            }
+        }
+    }
+}

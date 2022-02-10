@@ -1,0 +1,7 @@
+# Lista de elementos a ignorar
+
+
+#carpeta a ignorar
+
+node_modules
+

@@ -1,0 +1,19 @@
+/*Esto es un comentario de bloque PURO CSS*/
+/*Esto es una prueba de import*/
+section {
+  border: solid black;
+  padding: 10px;
+  background-color: #ebebeb; }
+  section ul {
+    border: solid red;
+    padding: 20px;
+    background-image: linear-gradient(to bottom right, yellow, orange);
+    list-style-type: none; }
+    section ul li {
+      border: solid blue;
+      padding: 20px; }
+      section ul li a {
+        border: solid green;
+        padding: 5px; }
+        section ul li a:active {
+          color: red; }
